@@ -28,4 +28,12 @@ The project was powered by 1n 18650 battery shield.
 
 ![IMG_4570](https://github.com/hiro24/Dicemaster-2000/assets/1022614/6c346b0f-c500-403b-933d-0b9566066da2)
 
+This project uses the adafruit_sdcard module as well as audiomp3, audiocore and audiopwmio, and a few other standard modules.
+
+The audio files in /sd/dice should be stored in a microSD card in a directory called /dice
+
+When the system is powered on, the SD card will be mounted for the Pico as /sd
+
+The original 3d print files for this project can be downloaded here: https://www.printables.com/model/839218-dicemaster-2000/files 
+
 
