@@ -126,24 +126,6 @@ def load_from_file():
     dice_rolled = False
     roll_result = 0
 
-#def save_pool():
-#    global dice_counts, save_dice_counts, total_dice, saved_total_dice
-#    for save_key in save_dice_counts:
-#        key = save_key.replace('save', '')  # Remove 'save' from the key
-#        if key in dice_counts:
-#            save_dice_counts[save_key] = dice_counts[key]
-#    saved_total_dice = total_dice
-
-#def load_pool():
-#    global dice_counts, save_dice_counts, total_dice, saved_total_dice, dice_rolled, roll_result
-#    for key in dice_counts:
-#        save_key = key + 'save'
-#        if save_key in save_dice_counts:
-#            dice_counts[key] = save_dice_counts[save_key]
-#    total_dice = saved_total_dice
-#    dice_rolled = False
-#    roll_result = 0
-
 # Set up onboard LED
 led = digitalio.DigitalInOut(board.LED)
 led.direction = digitalio.Direction.OUTPUT
